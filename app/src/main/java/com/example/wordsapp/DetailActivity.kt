@@ -25,7 +25,7 @@ import com.example.wordsapp.databinding.ActivityDetailBinding
 class DetailActivity : AppCompatActivity() {
     companion object {
         const val  LETTER = "letter"
-        val SEARCH_PREFIX = "https://www.google.com/search?q="
+        val SEARCH_PREFIX = "https://translate.google.co.il/?sl=en&tl=ru&text=&op=translate"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,4 +53,6 @@ class DetailActivity : AppCompatActivity() {
 
         title = getString(R.string.detail_prefix) + " " + letterId
     }
+
+
 }
